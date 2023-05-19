@@ -7,6 +7,7 @@ const RightBanner = () => {
       <img
         className="lgl:w-[520px] lgl:h-[580px] z-10"
         src={myImg}
+        loading="lazy"
         alt="myImg"
         width="full"
         height="full"
